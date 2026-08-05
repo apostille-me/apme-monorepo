@@ -1,0 +1,52 @@
+{
+  "org": "apostille-me",
+  "brand": "Apostille Me",
+  "repos": {
+    "clients": "apostille-me/apme-clients",
+    "libs": "apostille-me/apme-libs",
+    "monorepo": "apostille-me/apme-monorepo",
+    "infra": "apostille-me/apme-infra",
+    "marketing": "apostille-me/apostille-me.github.io"
+  },
+  "apps": [
+    "api",
+    "web",
+    "ops-console",
+    "control-plane"
+  ],
+  "packages": [
+    "contracts",
+    "ui",
+    "testkit",
+    "catalog"
+  ],
+  "repositories": [
+    "apme-interfaces",
+    "apme-api",
+    "apme-web-mash",
+    "apme-web-leptos",
+    "apme-web-dioxus",
+    "apme-cli",
+    "apme-sync",
+    "apme-infra",
+    "apme-clients",
+    "apme-libs",
+    "apostille-me.github.io"
+  ],
+  "capabilities": [
+    "intake",
+    "case-status",
+    "documents",
+    "events",
+    "alerts",
+    "audit"
+  ],
+  "integrations": [
+    "UPS/FedEx tracking",
+    "Google Drive",
+    "Notary queues",
+    "Translation vendors",
+    "Embassy checklists",
+    "Email/SMS updates"
+  ]
+}

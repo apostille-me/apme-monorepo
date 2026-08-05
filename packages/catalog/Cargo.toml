@@ -1,0 +1,6 @@
+[package]
+name = "apme-catalog"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Typed service catalog for Apostille Me"

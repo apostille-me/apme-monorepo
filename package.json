@@ -1,0 +1,19 @@
+{
+  "name": "@apostille-me/apme-monorepo",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "description": "High-context monorepo tooling for Apostille Me.",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "lint": "node --check scripts/describe.mjs",
+    "test:all": "bash scripts/test.sh"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

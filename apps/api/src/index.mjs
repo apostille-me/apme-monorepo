@@ -1,0 +1,1 @@
+export function describeApi() { return { product: "apostille-me", purpose: "A secure command center for document legalization, certified translations, status evidence, and cross-border filing handoffs.", routes: ['/healthz', '/api/config', '/api/events', '/api/leads', '/api/alerts'] }; }
