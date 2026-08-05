@@ -4,4 +4,4 @@ Place pinned cross-repository compatibility tests here. Do not duplicate applica
 
 Each fixture must identify its source repository and exact revision. Reusable dependencies should resolve through canonical `apostille-me/apme-*` Zed coordinates; retained Git submodules must have an explicit composition role and must not duplicate a Zed dependency in the same workspace.
 
-Use root package manifests so `zed overtake --git-submodules` can adopt reviewed gitlinks while preserving `.gitmodules`, exact commits, and provenance.
+`zed overtake --git-submodules` imports each initialized submodule that declares its own `.zpkg.toml` into the root manifest and lockfile while retaining `.gitmodules` as a reversible transport mirror and recording exact gitlink commits and provenance.
