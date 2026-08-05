@@ -1,0 +1,16 @@
+[submodule "repos/apme-api"]
+	path = repos/apme-api
+	url = https://github.com/apostille-me/apme-api.git
+	branch = main
+[submodule "repos/apme-web-leptos"]
+	path = repos/apme-web-leptos
+	url = https://github.com/apostille-me/apme-web-leptos.git
+	branch = main
+[submodule "repos/apme-web-dioxus"]
+	path = repos/apme-web-dioxus
+	url = https://github.com/apostille-me/apme-web-dioxus.git
+	branch = main
+[submodule "repos/apme-web-mash"]
+	path = repos/apme-web-mash
+	url = https://github.com/apostille-me/apme-web-mash.git
+	branch = main
