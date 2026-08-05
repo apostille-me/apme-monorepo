@@ -47,10 +47,10 @@ A retained gitlink is source composition, not package resolution. Every gitlink 
 
 ```text
 apps/example	workspace
-references/compat	 experiment-reference
+references/compat	experiment-reference
 ```
 
-Valid classifications are `workspace`, `inventory`, `embedded-source`, `experiment-reference`, and `legacy`. Remove the extra space in the example before use; fields must be separated by one tab.
+Valid classifications are `workspace`, `inventory`, `embedded-source`, `experiment-reference`, and `legacy`.
 
 The same repository must not be both a Zed dependency and a gitlink in one composition. Infrastructure repositories remain separate and must not be added as monorepo submodules.
 
