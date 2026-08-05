@@ -1,0 +1,54 @@
+schema = 2
+
+[defaults]
+classification = "workspace"
+zed_dependency = false
+allowed_submodule = true
+
+[[rule]]
+suffix = "-interfaces"
+classification = "contract"
+zed_dependency = true
+allowed_submodule = false
+
+[[rule]]
+suffix = "-clients"
+classification = "sdk"
+zed_dependency = true
+allowed_submodule = false
+
+[[rule]]
+suffix = "-lib"
+classification = "library"
+zed_dependency = true
+allowed_submodule = false
+
+[[rule]]
+suffix = "-libs"
+classification = "library"
+zed_dependency = true
+allowed_submodule = false
+
+[[rule]]
+suffix = "-sync"
+classification = "synchronization"
+zed_dependency = true
+allowed_submodule = false
+
+[[rule]]
+suffix = "-cli"
+classification = "tooling"
+zed_dependency = false
+allowed_submodule = false
+
+[[rule]]
+suffix = "-infra"
+classification = "operations"
+zed_dependency = false
+allowed_submodule = false
+
+[[rule]]
+suffix = "-e2e"
+classification = "verification"
+zed_dependency = false
+allowed_submodule = true
