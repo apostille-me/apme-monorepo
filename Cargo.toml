@@ -1,0 +1,8 @@
+[workspace]
+resolver = "2"
+members = ["apps/control-plane", "packages/catalog"]
+
+[workspace.package]
+edition = "2021"
+license = "MIT"
+version = "0.1.0"
