@@ -24,8 +24,9 @@ while IFS= read -r manifest; do
     status=1
   fi
 
-  sed -nE 's/^[[:space:]]*"([^"]+\/[^"]+)"[[:space:]]*=.*/\1/p' "$manifest"
-done <"$manifests_file" | sort -u >"$zed_deps_file"
+  sed -nE 's/^[[:space:]]*"([^"]+\/[^"]+)"[[:space:]]*=.*/\1/p' "$manifest" >>"$zed_deps_file"
+done <"$manifests_file"
+sort -u -o "$zed_deps_file" "$zed_deps_file"
 
 if git ls-files | grep -Eq '(^|/)(\.vendor/\.zed|zed_modules)(/|$)'; then
   echo 'error: materialized Zed dependencies must not be committed' >&2
