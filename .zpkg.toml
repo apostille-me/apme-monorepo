@@ -17,7 +17,6 @@ dir = ".vendor/.zed"
 "apostille-me/apme-clients" = "^0.1.0"
 "apostille-me/apme-interfaces" = "^0.1.0"
 "apostille-me/apme-libs" = "^0.1.0"
-"apostille-me/apme-cli" = "^0.1.0"
 "apostille-me/apme-sync" = "^0.1.0"
 "shared-auth/shared-auth-clients" = "^0.1.0"
 
@@ -28,3 +27,5 @@ exclude = [".env", ".env.*", "node_modules/**", "target/**", "dist/**", "*.log",
 
 [scripts]
 test = "bash scripts/test.sh"
+validate-submodules = "bash scripts/validate-zed-submodules.sh"
+install-with-submodules = "bash scripts/zed-install-with-submodules.sh"
