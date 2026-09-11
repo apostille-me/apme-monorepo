@@ -14,3 +14,7 @@
 	path = repos/apme-web-mash
 	url = https://github.com/apostille-me/apme-web-mash.git
 	branch = main
+[submodule "apps/apme-sidecar.rs"]
+	path = apps/apme-sidecar.rs
+	url = https://github.com/apostille-me/apme-sidecar.rs.git
+	branch = main
